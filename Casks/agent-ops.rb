@@ -4,22 +4,22 @@ cask "agent-ops" do
 
   on_macos do
     on_intel do
-      sha256 "4bf5dd536f34ae6d215d95bcfe7203a43606daa921fed1d6bc701619e3d5e0f3"
+      sha256 "96d5f2a408d8e911fa60c735dad57b3c62991aebf227c37467f9fcceaf460dc2"
       url "https://dl.zibby.app/agent-ops/v#{version}/agent-ops_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4041523f5ca4eaf32251d8b20e8987415057463654003e44520e151c967b63db"
+      sha256 "c32b953e7c5914d95ce2706f40e4bcbbc65bdcd0e6e9a2b49aea7c78de4b3684"
       url "https://dl.zibby.app/agent-ops/v#{version}/agent-ops_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "2033deecc459ff66a57d643f1a70c9712a619fba9b6d4bb27a6e6f9590002c8f"
+      sha256 "114fd72f2f5b43721dddbd3054351285dc5db1269dafcfd424557a1dbf5690b6"
       url "https://dl.zibby.app/agent-ops/v#{version}/agent-ops_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "81af1c398a75c7b04fc8dc276456763cf57a38314bd06a515b13a8a583a1ef20"
+      sha256 "0c679463ed55f96fe594ca8a3c0a6141b84ffedc975e74bfe7bd1cd0711d7e9d"
       url "https://dl.zibby.app/agent-ops/v#{version}/agent-ops_linux_arm64.tar.gz"
     end
   end
